@@ -2,7 +2,11 @@ package com.example.myapplication12
 
 fun main(){
 
+    var d = Dog()
+    var detailOfDog = DetailOfDog("pitty",23)
+    d.behaviour(detailOfDog)
 
+  /*
     var computerChoice = ""
     var playerChoice = ""
     println("Rock , Paper or Scissors: Please enter a Value!")
@@ -33,5 +37,5 @@ fun main(){
 
     }
     println("The winner is : $winner")
-
+*/
 }
